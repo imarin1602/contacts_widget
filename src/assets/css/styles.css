@@ -1,0 +1,76 @@
+.messenger__wrapper {
+	position: fixed;
+  	bottom: 10px;
+  	right: 10px;
+}
+.messengers__open-list-collapsed {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	bottom: 50px;
+	right: 50px;
+	border-radius: 50%;
+	background: url(../../assets/img/icon/messages2.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-color: #009640;
+	cursor: pointer;
+}
+.messengers__open-list-expanded {
+	position: absolute;
+	height: 52px;
+	width: 52px;
+	bottom: 50px;
+	right: 50px;
+	border-radius: 50%;
+	background: url(../../assets/img/icon/close.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-color: #009640;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#messagers__open-list{
+  	border-radius: 50%;
+  
+}
+.blink_me {
+  	animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+	50% {
+		opacity: 0.2;
+	}
+}
+.messenger__item {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+	z-index: -10;
+	border-radius: 50%;
+	transition: all 0.5s ease-in-out;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.messenger__item:hover span {
+	display: block;
+	padding: 5px;
+	position: absolute;
+	right: 70px;
+	bottom: 10px;
+	border-radius: 5%;
+	transition: all 0.5s ease-in-out;
+	display: inline;
+	cursor: pointer;
+	color:white;
+}
+.messenger__discription {
+  	display: none;
+}

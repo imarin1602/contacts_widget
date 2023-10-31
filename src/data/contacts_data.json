@@ -1,0 +1,30 @@
+[
+    {
+        "name": "phone",
+        "discription": "Позвонить",
+        "color": "#FE7A15",
+        "icon": "assets/img/icon/phone.svg",
+        "url": "tel:+79999999999"
+    },
+    {
+        "name": "email",
+        "discription": "Написать на почту",
+        "color": "#0191B4",
+        "icon": "assets/img/icon/email.svg",
+        "url": "mailto:example@example.com"
+    },
+    {
+        "name": "telegram",
+        "discription": "Telegram",
+        "color": "#29B6F6",
+        "icon": "assets/img/icon/telegram.svg",
+        "url": "https://telegram.me/username"
+    },
+    {
+        "name": "whatsapp",
+        "discription": "Whatsapp",
+        "color": "#43d854",
+        "icon": "assets/img/icon/whatsapp.svg",
+        "url": "https://wa.me/79999999999"
+    }
+]
